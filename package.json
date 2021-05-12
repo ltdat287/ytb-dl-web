@@ -1,0 +1,36 @@
+{
+  "name": "youtube-dl-web",
+  "repository": "https://github.com/saanuregh/youtube-dl-web.git",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "dependencies": {
+    "content-disposition": "^0.5.3",
+    "execa": "^4.0.3",
+    "ffmpeg-static": "^4.2.7",
+    "next": "latest",
+    "next-absolute-url": "^1.2.2",
+    "node-fetch": "^2.6.1",
+    "nprogress": "^0.2.0",
+    "pretty-ms": "^7.0.1",
+    "query-string": "^6.13.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scrollbars-custom": "^4.0.25"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.16",
+    "eslint": "^7.11.0",
+    "eslint-config-galex": "^2.5.11",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.9.5"
+  },
+  "license": "MIT"
+}
